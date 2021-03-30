@@ -7,7 +7,7 @@
 
 section.first {
   background-image: url("../images/background.jpg");
-  height: 100vh;
+  height: 200vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -15,7 +15,7 @@ section.first {
 
 .header {
   position: relative;
-  width: calc(100%-100px);
+  width: 90%;
   min-height: calc(100vh - 280px);
   min-height: 300px;
   background: rgba(255, 255, 255, 0.5);
@@ -30,7 +30,7 @@ section.first {
       -ms-flex-pack: center;
           justify-content: center;
   top: 85px;
-  margin: 0px 120px;
+  margin: 0px auto;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -56,8 +56,6 @@ nav {
 }
 
 .content {
-  -webkit-transform: translate(-100px);
-          transform: translate(-100px);
   max-width: 600px;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -67,8 +65,9 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transform: translate(-44px);
+          transform: translate(-44px);
   padding: 40px;
-  padding-left: 120px;
 }
 
 .mid {
